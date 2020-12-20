@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学习第二天:简历制作</title>
+    <style>
+        #head{
+            text-align: center;
+        }
+        #head img{
+            float: right;
+            width: 100px;
+            height: 100px;
+        }
+        .data{
+            position:absolute;
+            right: 0;  
+        }
+        .bbc{
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div id="head">
+        <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1608442828040&di=c37f8ec6136691142497d05c14268c26&imgtype=0&src=http%3A%2F%2Fww4.sinaimg.cn%2Fmw690%2F0068LpS2gy1ge086xgt2aj30ku0kuaew.jpg" alt="">
+        <h2>陈于婷（Danani）</h2>
+        <p>138-888-8888|Danani@163.com</p>
+        <p>北京市朝阳区广顺男路99号6层</p>
+        
+    </div>
+    <h3>教育经历</h5>
+    <hr>
+    <div id="education1">
+        <strong>哥伦比亚大学</strong>
+        <p class="data">2016月9月-2018月5月</p>
+        <p class="data bbc">纽约</p>
+        <p>经济学硕士，经济与基础学院</p>
+        <ul>
+            <li>GPA:4.00(专业前8%）</li>
+            <li>相关课程：经济金融学、经济统计学、会计与资本市场、公司金融、投资银行业务</li>
+        </ul>
+    </div>
+    <div id="education2">
+        <strong>清华大学</strong>
+        <p class="data">2013月9月-2017月6月</p>
+        <p class="data bbc">北京</p>
+        <p>经济学 本科 经济管理学院</p>
+        <ul>
+            <li>GPA:3.6|荣誉奖项：2015-2016总和奖学金(专业前15%)、ResumeHack领导奖</li>
+        </ul>
+    </div>
+    <h3>工作与实习经历</h3>
+    <hr>
+    <div id="internshipExperience">
+        <strong>普华永道</strong>
+        <p class="data">2018年6月-2018年9月</p>
+        <p class="data bbc">北京</p>
+        <p>项目助理,税务部门</p>
+        <ul>
+            <li>运用EMIS,公司年报。报告产业信息网等渠道查找所需数挺及资料，独立完成8家公司转让定价报告的可比行性分析与行业分析
+                (覆盖食品,电子商务,物流,汽车等行业)
+            </li>
+            <li>
+                运用VBA为部门更新了Exce同比公司筛选模板，为部门入职培训录制数据库使用视频教程，该模板后为全部门28人运用，
+                所录制教程培训了20多名员工,受到了部门主管的高度评价
+            </li>
+            <li>
+                协助2个跨国集团客户管理全球业务所产生的税务和社会保障责任，制订分税政策、审阅劳务结构、进行税务申报,
+                对频繁差旅员工制定特定的政第限度,以浓低有关风险
+            </li> 
+        </ul>
+    </div>
+    <div id="internshipExperience2">
+        <strong>网易</strong>
+        <p class="data">2016年9月-2017年6月</p>
+        <p class="data bbc">北京</p>
+        <p>校园大使,金融管理学院</p>
+        <ul>
+            <li>统筹校内的运营推广，自主设计宣传海报进行校内线下推广，协助组织2次学生创意大赛的推广和执行，吸引超过1000名学生报名参赛
+            </li>
+            <li>
+                管理运营3个500人校内微信群，每周撰写3施原创公众号文章(平均阅读量3000+)
+            </li>
+        </ul>
+    </div>
+    <h3>技能及其他</h3>
+    <hr>
+    <ul>
+        <li>语言:普通话(母语)、英语(流利)、ELTS (6.5)、日语(基础)</li>
+        <li>技能:Bloomberg、Excel (熟练)、PPT(熟练，可设计模板Y、HTMLICSS（可制作同单网站）</li>
+        <li>兴趣爱好:跑步(北马完成6次）</li>
+    </ul>
+</body>
+</html>
